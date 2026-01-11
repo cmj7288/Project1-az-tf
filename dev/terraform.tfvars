@@ -1,0 +1,6 @@
+rgname                 = "pro1-dev-rg"
+service_principal_name = "pro1-dev-spn"
+keyvault_name          = "pro1-dev-kv"
+SUB_ID = ""
+cluster_name = "pro1-dev-cluster"
+node_pool_name = "pro1-dev-np"
