@@ -1,5 +1,4 @@
-#Script to cre
-ate backend for project 1
+#Script to create backend for project 1
 RG_NAME = 'pro1rg'
 STG_SA = 'pro1stgsa'
 DEV_SA = 'pro1devsa'
