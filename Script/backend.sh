@@ -1,4 +1,5 @@
-#!/bin/bash
+#Script to cre
+ate backend for project 1
 RG_NAME = 'pro1rg'
 STG_SA = 'pro1stgsa'
 DEV_SA = 'pro1devsa'
@@ -15,18 +16,4 @@ az storage container create --name $CONTAINER_NAME --account-name $STG_SA
 # Create blob container for dev environment
 az storage container create --name $CONTAINER_NAME --account-name $DEV_SA
 
-
-'''
-# Login first
-az login
-
-# Set subscription (optional)
-az account set --subscription "<SUBSCRIPTION_ID>"
-
-# Delete resource group and all resources in it
-az group delete \
-  --name "<RESOURCE_GROUP_NAME>" \
-  --yes \
-  --no-wait
-'''
-
+echo "Done ✅"
